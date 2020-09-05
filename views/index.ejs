@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  <title>IP Address Tracker</title>
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+   <link rel="stylesheet" href="/css/styles.css">
+
+
+</head>
+<body>
+
+  <header class="header grid">
+    <h1>IP Address Tracker</h1>
+    <form class="header-input">
+      <input type="text" placeholder="Search for any IP address or Domain">
+      <a href=""><img src="./images/icon-arrow.svg" alt=""></a>
+    </form>
+    <div class="info-grid info-box">
+        <% if(geoDataObj){ %>
+
+      <div class="info-box-ip">
+        <h4>IP ADDRESS</h4>
+        <h3><%= geoDataObj.ip %></h3>
+        <hr class="line-break">
+      </div>
+      <div class="info-box-location">
+        <h4>LOCATION</h4>
+        <h3><%= geoDataObj.location.city%>,<%= geoDataObj.location.region%>,<%= geoDataObj.location.country%>,<%= geoDataObj.location.postalCode%></h3>
+        <hr class="line-break">
+      </div>
+      <div class="info-box-timezone">
+        <h4>TIMEZONE</h4>
+        <h3><%= geoDataObj.location.timezone%></h3>
+      </div>
+      <div class="info-box-isp">
+        <h4>ISP</h4>
+        <h3><%= geoDataObj.isp%></h3>
+      </div>
+    <% } else {%>
+        <h3>Loading...</h3>
+    <% } %>
+    </div>
+  </header>
+
+  <div id="leaflet"></div>
+
+  <script src="/scripts/scripts.js"></script>
+</body>
+</html>
