@@ -1,11 +1,11 @@
 # Challenge By [Frontend Mentor](https://www.frontendmentor.io) 
 
 ## SCREENSHOTS
-![Desktop_sc](https://github.com/pineapple45/IP-Address-Tracker/blob/master/Desktop_sc.png)
+![Desktop_sc](https://github.com/pineapple45/IP-Address-Tracker/blob/master/screenshots/Desktop_sc.png)
 ---
-![Desktop_sc](https://github.com/pineapple45/IP-Address-Tracker/blob/master/laptop-Tab_sc.png)
+![Laptop-Tab_sc](https://github.com/pineapple45/IP-Address-Tracker/blob/master/screenshots/laptop-Tab_sc.png)
 ---
-![Desktop_sc](https://github.com/pineapple45/IP-Address-Tracker/blob/master/mobile_sc.png)
+![Mobile_sc](https://github.com/pineapple45/IP-Address-Tracker/blob/master/screenshots/mobile_sc.png)
 
 
 # Live Preview: https://thawing-falls-23010.herokuapp.com/
