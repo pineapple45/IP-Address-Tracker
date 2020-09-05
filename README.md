@@ -1,24 +1,22 @@
 # Challenge By [Frontend Mentor](https://www.frontendmentor.io) 
 
 ## SCREENSHOTS
+
+### Desktop Version
 ![Desktop_sc](https://github.com/pineapple45/IP-Address-Tracker/blob/master/screenshots/Desktop_sc.png)
 ---
+
+### Laptop/Tablet Version
 ![Laptop-Tab_sc](https://github.com/pineapple45/IP-Address-Tracker/blob/master/screenshots/laptop-Tab_sc.png)
 ---
+
+### Mobile Version
 ![Mobile_sc](https://github.com/pineapple45/IP-Address-Tracker/blob/master/screenshots/mobile_sc.png)
 
 
-# Live Preview: https://thawing-falls-23010.herokuapp.com/
-
-
-# Frontend Mentor - IP Address Tracker
-
-![Design preview for the IP Address Tracker coding challenge](./design/desktop-preview.jpg)
-
+### Live Preview: https://thawing-falls-23010.herokuapp.com/
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
-
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
